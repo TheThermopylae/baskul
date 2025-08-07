@@ -1,5 +1,5 @@
 <template>
-  <header class="mt-2 mb-3 flex justify-between gap-3 container">
+  <header class="mt-2 mb-3 flex justify-between gap-1 container">
     <div class="flex-grow relative">
       <svg
         class="absolute top-1/2 -translate-y-1/2 right-1"
