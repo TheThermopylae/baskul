@@ -4,7 +4,7 @@
     :spaceBetween="15"
     :pagination="{ clickable: true }"
     :modules="modules"
-    class="mySwiper !px-4 !pb-10 !mt-4"
+    class="mySwiper !px-4 !pb-10 !mt-6"
   >
     <swiper-slide class="text-xs !w-fit" v-for="item in 10">
       <article class="size-[55px] text-center">

@@ -1,5 +1,5 @@
 <template>
-  <header class="mt-2 mb-3 flex justify-between gap-1 container">
+  <header class="mt-2 mb-3 flex justify-between gap-3 container">
     <div class="flex-grow relative">
       <svg
         class="absolute top-1/2 -translate-y-1/2 right-1"
@@ -45,7 +45,7 @@
       </svg>
     </div>
     <div class="flex gap-1">
-      <NuxtLink to="/" class="size-[40px] rounded-full bg-shade flex-center">
+      <NuxtLink to="/" class="size-[40px] rounded-10 bg-shade flex-center">
         <svg
           width="36"
           height="36"
@@ -72,7 +72,7 @@
           </defs>
         </svg>
       </NuxtLink>
-      <NuxtLink to="/" class="size-[40px] rounded-full bg-shade flex-center">
+      <NuxtLink to="/" class="size-[40px] rounded-10 bg-shade flex-center">
         <svg
           width="18"
           height="18"

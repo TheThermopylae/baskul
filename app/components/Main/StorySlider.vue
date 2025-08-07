@@ -1,13 +1,13 @@
 <template>
   <swiper
-    :slidesPerView="'auto'"
-    :spaceBetween="10"
+    :slidesPerView="5"
+    :spaceBetween="20"
     :freeMode="true"
     :pagination="{ clickable: true }"
     :modules="modules"
     class="mySwiper !px-4"
   >
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -20,7 +20,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -33,7 +33,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -46,7 +46,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -59,7 +59,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -72,7 +72,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -85,7 +85,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -98,7 +98,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -111,7 +111,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -124,7 +124,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -137,7 +137,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -150,7 +150,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -163,7 +163,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -176,7 +176,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -189,7 +189,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -202,7 +202,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit flex flex-col items-center">
+    <swiper-slide class="flex flex-col items-center">
       <article
         class="size-[62px] rounded-full border-2 border-[#2A85FF] p-[1px]"
       >
@@ -215,7 +215,7 @@
         برگ زرد آلو
       </h4>
     </swiper-slide>
-    <swiper-slide class="!w-fit">
+    <swiper-slide>
       <NuxtLink
         to="/"
         class="flex items-center text-primary gap-2 text-xs relative"
