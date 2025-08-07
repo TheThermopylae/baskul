@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "peyda-medium";
+    src: url("/fonts/ttf/PeydaFaNum-Medium.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "peyda-medium";
+    src: url("/fonts/woff/PeydaWebFaNum-Medium.woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "peyda-medium";
+    src: url("/fonts/woff2/PeydaWebFaNum-Medium.woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "peyda-bold";
+    src: url("/fonts/ttf/PeydaFaNum-Bold.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "peyda-bold";
+    src: url("/fonts/woff/PeydaWebFaNum-Bold.woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "peyda-bold";
+    src: url("/fonts/woff2/PeydaWebFaNum-Bold.woff2");
+    font-display: swap;
+}
+
+@theme {
+    --text-2sm: 10px;
+    --font-sans: "peyda-medium";
+    --font-yekB: "peyda-bold";
+
+    /* colors */
+    --color-primary: #FF4800;
+    --color-shade: #E2E2E2;
+    --color-surface1: #F1F1F1;
+    --color-surface2: #FDFDFD;
+    --color-textsec: #727272;
+
+    --radius-10: 10px;
+}
+
+@utility container {
+    margin: auto;
+    padding-inline: 1rem;
+
+    @variant sm {
+        padding-inline: 2rem;
+    }
+}
+
+body {
+    @apply bg-surface1
+}
+
+.flex-center {
+    @apply flex justify-center items-center
+}
+
+* {
+    outline: none;
+}
